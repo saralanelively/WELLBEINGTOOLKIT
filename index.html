@@ -1,1 +1,142 @@
-wellbeingtoolkitmemes
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.css">
+  <link href="./css/thumbnail-gallery.css" rel="stylesheet" />
+
+  <style>
+    .tz-gallery {
+      padding: 40px;
+    }
+
+    .tz-gallery .thumbnail {
+      padding: 0;
+      margin-bottom: 30px;
+      background-color: #fff;
+      border-radius: 4px;
+      border: none;
+      transition: 0.15s ease-in-out;
+      box-shadow: 0 8px 15px rgba(0, 0, 0, 0.06);
+    }
+
+    .tz-gallery .thumbnail:hover {
+      transform: translateY(-10px) scale(1.02);
+    }
+
+    .baguetteBox-button {
+      background-color: transparent !important;
+    }
+
+
+    .carousel-inner>.item>a>img,
+    .carousel-inner>.item>img,
+    .img-responsive,
+    .thumbnail a>img,
+    .thumbnail>img {
+      display: block;
+      max-width: 100%;
+      height: auto;
+    }
+  </style>
+
+</head>
+
+<body>
+
+
+  <main>
+
+
+    <section id="gallery">
+      <div class=" gallery-container container">
+        <div class="tz-gallery">
+
+          <div class="row">
+
+            <!---------------------------------------------->
+            <div data-aos="flip-up" class="col-sm-6 col-md-4">
+              <div class="thumbnail">
+                <a class="lightbox" href="1.jpeg">
+                  <img src="1.jpeg">
+                </a>
+              </div>
+            </div>
+
+            <!---------------------------------------------->
+
+            <div data-aos="flip-up" data-aos-delay="20" class="col-sm-6 col-md-4">
+              <div class="thumbnail">
+                <a class="lightbox" href="2.jpeg">
+                  <img src="2.jpeg">
+                </a>
+              </div>
+            </div>
+            <!---------------------------------------------->
+
+            <div data-aos="flip-up" data-aos-delay="40" class="col-sm-6 col-md-4">
+              <div class="thumbnail">
+                <a class="lightbox" href="3.jpeg">
+                  <img src="3.jpeg">
+                </a>
+
+              </div>
+            </div>
+            <!---------------------------------------------->
+
+            <div data-aos="flip-up" data-aos-delay="60" class="col-sm-6 col-md-4">
+              <div class="thumbnail">
+                <a class="lightbox" href="4.jpeg">
+                  <img src="4.jpeg">
+                </a>
+              </div>
+            </div>
+            <!---------------------------------------------->
+
+            <div data-aos="flip-up" data-aos-delay="80" class="col-sm-6 col-md-4">
+              <div class="thumbnail">
+                <a class="lightbox" href="5.jpeg">
+                  <img src="5.jpeg">
+                </a>
+              </div>
+            </div>
+            <!---------------------------------------------->
+
+            <div data-aos="flip-up" data-aos-delay="100" class="col-sm-6 col-md-4">
+              <div class="thumbnail">
+                <a class="lightbox" href="6.jpeg">
+                  <img src="6.jpeg">
+                </a>
+              </div>
+            </div>
+            <!---------------------------------------------->
+
+            <div data-aos="flip-up" data-aos-delay="120" class="col-sm-6 col-md-4">
+              <div class="thumbnail">
+                <a class="lightbox" href="7.jpeg">
+                  <img src="7.jpeg">
+                </a>
+              </div>
+            </div>
+          
+
+
+
+          </div>
+        </div>
+      </div>
+
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
+      <script>
+        baguetteBox.run('.tz-gallery');
+      </script>
+
+    </section>
+
+
+  </main>
+
+
+</html>
